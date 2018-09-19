@@ -2,7 +2,7 @@
   <div id="app">
     <div class="app-header">
       <div class="app-header-inner">
-        <a href="">
+        <a href="/">
           <img src="./assets/logo.png" alt="">
         </a>
         <div class="header-nav">

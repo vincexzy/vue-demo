@@ -51,7 +51,7 @@
             <h2>开放产品</h2>
             <p>开放产品是一款开放产品</p>
             <div class="index-board-button">
-              <a href="" class="button">立即购买</a>
+              <a href="/detail/forecast" class="button">立即购买</a>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
             <h2>开放产品</h2>
             <p>开放产品是一款开放产品</p>
             <div class="index-board-button">
-              <a href="" class="button">立即购买</a>
+              <a href="/detail/forecast" class="button">立即购买</a>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default {
         {
           src: require('../assets/slideShow/pic3.jpg'),
           title: '算法面试',
-          href: 'http://xxx.xxx.com'
+          href: 'https://www.baidu.com'
         },
         {
           src: require('../assets/slideShow/pic4.jpg'),
