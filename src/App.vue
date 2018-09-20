@@ -28,8 +28,12 @@
 </template>
 
 <script>
+import dialog from '@/components/dialog';
 export default {
-  name: "App"
+  name: "App",
+  components:{
+    dialog
+  }
 };
 </script>
 

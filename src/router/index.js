@@ -19,6 +19,10 @@ export default new Router({
       component: HelloWorld
     },
     {
+      path:"/ttt",
+      component:DetailAnaPage
+    },
+    {
       path: "/detail",
       name: "Detail",
       component: Detail,

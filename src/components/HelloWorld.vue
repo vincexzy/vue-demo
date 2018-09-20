@@ -51,7 +51,7 @@
             <h2>开放产品</h2>
             <p>开放产品是一款开放产品</p>
             <div class="index-board-button">
-              <a href="/detail/forecast" class="button">立即购买</a>
+              <router-link :to="'/detail/forecast'" class="button">立即购买</router-link>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
             <h2>开放产品</h2>
             <p>开放产品是一款开放产品</p>
             <div class="index-board-button">
-              <a href="/detail/forecast" class="button">立即购买</a>
+              <router-link :to="'ttt'" class="button">立即购买</router-link>
             </div>
           </div>
         </div>
@@ -240,9 +240,9 @@ export default {
   color: #000;
   font-weight: bold;
 }
-.index-board-item-inner p{
+/* .index-board-item-inner p{
 
-}
+} */
 .index-board-button {
   margin-top: 20px;
 }
